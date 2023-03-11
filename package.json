@@ -1,0 +1,22 @@
+{
+  "name": "faster-daxuexi",
+  "version": "1.0.0",
+  "private": true,
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "SET DEBUG=faster-daxuexi:* & nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "^4.2.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "undici": "^5.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
